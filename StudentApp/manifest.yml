@@ -1,0 +1,10 @@
+---
+applications:
+- name: MavenProject
+  memory: 512M
+  host: MavenProject
+  domain: cfapps.io
+  env: {
+    }
+  services: {
+    }
