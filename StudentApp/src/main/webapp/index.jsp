@@ -14,10 +14,10 @@ Surname name:<br>
 <input type="text" name="lastname" value="">
 <br>
 Student number:<br>
-<input type="text" name="lastname" value="">
+<input type="text" name="studentnumber" value="">
 <br>
 Phone number:<br>
-<input type="text" name="lastname" value="">
+<input type="text" name="phonenumber" value="">
 <br><br>
 <input type="submit" value="Submit">
 </form> 
