@@ -9,11 +9,11 @@ import org.springframework.jdbc.core.RowMapper;
 import javax.sql.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class jdbcStudentRepository implements studentRepository {
+public class JdbcStudentRepository implements StudentRepository {
 
 	private JdbcTemplate jdbcTemplate;
 	
-	public jdbcStudentRepository (DataSource dataSource) {
+	public JdbcStudentRepository (DataSource dataSource) {
 		jdbcTemplate = new JdbcTemplate(dataSource);
 	}
 	
@@ -34,6 +34,7 @@ public class jdbcStudentRepository implements studentRepository {
 
 		public Student mapRow(ResultSet rs, int rowNum) throws SQLException {
 			// TODO Auto-generated method stub
+			
 			return null;
 		}
 		

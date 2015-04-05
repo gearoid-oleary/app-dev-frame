@@ -2,9 +2,9 @@ package com.gearoidoleary;
 
 import java.util.List;
 
-public interface studentRepository {
+public interface StudentRepository {
 
-	void insert(Student todo);
+	void insert(Student student);
 	
 	List<Student> getAll();
 }
